@@ -6,6 +6,7 @@ from selenium import webdriver
 class NewVisitorTest(unittest.TestCase):
     def setUp(self) -> None:
         self.browser = webdriver.Firefox()
+        self.browser.implicitly_wait(3)
 
     def tearDown(self) -> None:
         self.browser.quit()
