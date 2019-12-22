@@ -88,4 +88,6 @@ local_settings.py
 .env
 db.sqlite3
 templates/
-venv/include/
+venv
+.idea
+test_goat/geckodriver.log
