@@ -87,7 +87,6 @@ local_settings.py
 
 .env
 db.sqlite3
-templates/
 venv
 .idea
 test_goat/geckodriver.log
